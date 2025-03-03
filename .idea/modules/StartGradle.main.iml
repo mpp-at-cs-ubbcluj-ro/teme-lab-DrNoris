@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="untitled:main" external.linked.project.path="$MODULE_DIR$/../../untitled" external.root.project.path="$MODULE_DIR$/../../untitled" external.system.id="GRADLE" external.system.module.group="StartGradle" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="StartGradle:main" external.linked.project.path="$MODULE_DIR$/../../StartGradle" external.root.project.path="$MODULE_DIR$/../../StartGradle" external.system.id="GRADLE" external.system.module.group="StartGradle" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../untitled/build/classes/java/main" />
+    <output url="file://$MODULE_DIR$/../../StartGradle/build/classes/java/main" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../untitled/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../untitled/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../untitled/src/main/resources" type="java-resource" />
+    <content url="file://$MODULE_DIR$/../../StartGradle/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../StartGradle/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../StartGradle/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="untitled" target="23" />
-      <module name="untitled.main" target="23" />
-      <module name="untitled.test" target="23" />
+      <module name="StartGradle" target="17" />
+      <module name="StartGradle.main" target="17" />
+      <module name="StartGradle.test" target="17" />
+      <module name="untitled" target="17" />
+      <module name="untitled.main" target="17" />
+      <module name="untitled.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
