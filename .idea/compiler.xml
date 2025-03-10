@@ -2,6 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="lab3_DB" target="17" />
+      <module name="lab3_DB.main" target="17" />
+      <module name="lab3_DB.test" target="17" />
       <module name="StartGradle" target="17" />
       <module name="StartGradle.main" target="17" />
       <module name="StartGradle.test" target="17" />
