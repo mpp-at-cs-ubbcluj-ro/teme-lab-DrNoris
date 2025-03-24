@@ -38,3 +38,63 @@
 10 Mar 2025 18:46:42,758 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
 10 Mar 2025 18:46:42,759 TRACE org.example.CarsDBRepository 47 findByManufacturer - Found 1 cars
 10 Mar 2025 18:46:42,759 TRACE org.example.CarsDBRepository 53 findByManufacturer - Exit
+10 Mar 2025 18:53:45,057 INFO  org.example.CarsDBRepository 21 <init> - Initializing org.example.CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:/Users/noris/teme-lab-DrNoris/lab3_DB/lab3_DB} 
+10 Mar 2025 18:53:45,063 TRACE org.example.CarsDBRepository 94 add - Enter saving task Id=0 Dacia Logan 2024 
+10 Mar 2025 18:53:45,063 TRACE org.example.JdbcUtils 47 getConnection - Enter
+10 Mar 2025 18:53:45,063 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+10 Mar 2025 18:53:45,063 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/noris/teme-lab-DrNoris/lab3_DB/lab3_DB
+10 Mar 2025 18:53:45,064 INFO  org.example.JdbcUtils 31 getNewConnection - user: null
+10 Mar 2025 18:53:45,064 INFO  org.example.JdbcUtils 32 getNewConnection - pass: null
+10 Mar 2025 18:53:45,479 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+10 Mar 2025 18:53:45,485 TRACE org.example.CarsDBRepository 101 add - Saved 1 instances
+10 Mar 2025 18:53:45,485 TRACE org.example.CarsDBRepository 106 add - Exit
+10 Mar 2025 18:53:45,486 TRACE org.example.CarsDBRepository 131 findAll - Enter retrieving all cars
+10 Mar 2025 18:53:45,486 TRACE org.example.JdbcUtils 47 getConnection - Enter
+10 Mar 2025 18:53:45,486 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+10 Mar 2025 18:53:45,487 TRACE org.example.CarsDBRepository 148 findAll - Found 3 cars
+10 Mar 2025 18:53:45,488 TRACE org.example.CarsDBRepository 154 findAll - Exit
+10 Mar 2025 18:53:45,488 TRACE org.example.CarsDBRepository 27 findByManufacturer - Enter retrieving cars by manufacturer: Tesla
+10 Mar 2025 18:53:45,488 TRACE org.example.JdbcUtils 47 getConnection - Enter
+10 Mar 2025 18:53:45,488 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+10 Mar 2025 18:53:45,488 TRACE org.example.CarsDBRepository 47 findByManufacturer - Found 1 cars
+10 Mar 2025 18:53:45,489 TRACE org.example.CarsDBRepository 53 findByManufacturer - Exit
+10 Mar 2025 18:54:35,117 INFO  org.example.CarsDBRepository 21 <init> - Initializing org.example.CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:lab3_DB} 
+10 Mar 2025 18:54:35,125 TRACE org.example.CarsDBRepository 94 add - Enter saving task Id=0 Dacia Logan 2024 
+10 Mar 2025 18:54:35,125 TRACE org.example.JdbcUtils 47 getConnection - Enter
+10 Mar 2025 18:54:35,126 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+10 Mar 2025 18:54:35,126 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:lab3_DB
+10 Mar 2025 18:54:35,126 INFO  org.example.JdbcUtils 31 getNewConnection - user: null
+10 Mar 2025 18:54:35,126 INFO  org.example.JdbcUtils 32 getNewConnection - pass: null
+10 Mar 2025 18:54:35,437 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+10 Mar 2025 18:54:35,443 TRACE org.example.CarsDBRepository 101 add - Saved 1 instances
+10 Mar 2025 18:54:35,444 TRACE org.example.CarsDBRepository 106 add - Exit
+10 Mar 2025 18:54:35,444 TRACE org.example.CarsDBRepository 131 findAll - Enter retrieving all cars
+10 Mar 2025 18:54:35,444 TRACE org.example.JdbcUtils 47 getConnection - Enter
+10 Mar 2025 18:54:35,444 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+10 Mar 2025 18:54:35,446 TRACE org.example.CarsDBRepository 148 findAll - Found 4 cars
+10 Mar 2025 18:54:35,446 TRACE org.example.CarsDBRepository 154 findAll - Exit
+10 Mar 2025 18:54:35,447 TRACE org.example.CarsDBRepository 27 findByManufacturer - Enter retrieving cars by manufacturer: Tesla
+10 Mar 2025 18:54:35,447 TRACE org.example.JdbcUtils 47 getConnection - Enter
+10 Mar 2025 18:54:35,447 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+10 Mar 2025 18:54:35,448 TRACE org.example.CarsDBRepository 47 findByManufacturer - Found 1 cars
+10 Mar 2025 18:54:35,448 TRACE org.example.CarsDBRepository 53 findByManufacturer - Exit
+24 Mar 2025 18:12:34,070 INFO  org.example.CarsDBRepository 21 <init> - Initializing org.example.CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:lab3_DB} 
+24 Mar 2025 18:12:34,076 TRACE org.example.CarsDBRepository 94 add - Enter saving task Id=0 Dacia Logan 2024 
+24 Mar 2025 18:12:34,076 TRACE org.example.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 18:12:34,076 TRACE org.example.JdbcUtils 25 getNewConnection - Enter
+24 Mar 2025 18:12:34,076 INFO  org.example.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:lab3_DB
+24 Mar 2025 18:12:34,077 INFO  org.example.JdbcUtils 31 getNewConnection - user: null
+24 Mar 2025 18:12:34,077 INFO  org.example.JdbcUtils 32 getNewConnection - pass: null
+24 Mar 2025 18:12:34,622 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+24 Mar 2025 18:12:34,628 TRACE org.example.CarsDBRepository 101 add - Saved 1 instances
+24 Mar 2025 18:12:34,628 TRACE org.example.CarsDBRepository 106 add - Exit
+24 Mar 2025 18:12:34,628 TRACE org.example.CarsDBRepository 131 findAll - Enter retrieving all cars
+24 Mar 2025 18:12:34,629 TRACE org.example.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 18:12:34,629 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+24 Mar 2025 18:12:34,630 TRACE org.example.CarsDBRepository 148 findAll - Found 5 cars
+24 Mar 2025 18:12:34,631 TRACE org.example.CarsDBRepository 154 findAll - Exit
+24 Mar 2025 18:12:34,631 TRACE org.example.CarsDBRepository 27 findByManufacturer - Enter retrieving cars by manufacturer: Tesla
+24 Mar 2025 18:12:34,631 TRACE org.example.JdbcUtils 47 getConnection - Enter
+24 Mar 2025 18:12:34,631 TRACE org.example.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d86a6f)
+24 Mar 2025 18:12:34,632 TRACE org.example.CarsDBRepository 47 findByManufacturer - Found 1 cars
+24 Mar 2025 18:12:34,632 TRACE org.example.CarsDBRepository 53 findByManufacturer - Exit
