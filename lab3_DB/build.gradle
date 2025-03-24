@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'StartGradle'
+version  '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.0'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.0'
+    implementation("com.google.guava:guava:33.4.0-jre")
+    //implementation group: 'com.google-guava', name: 'guava', version: '31.0.1-jre'
+    implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.49.1.0'
+}
+
+application {
+    mainClass = 'org.example.Main'
+}
+
+jar{
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest{
+        attributes('Main-Class' : 'org.example.Main')
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
+
